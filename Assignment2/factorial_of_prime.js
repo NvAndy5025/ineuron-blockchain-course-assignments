@@ -10,7 +10,7 @@ function calcFactorialOfPrimeBtwn(num1, num2){
                 factorial = factorial*i;
             }else if(i%2!=0){
                 let isPrime =true;
-                for(j=3;j<i;j++){
+                for(j=3;j<i;j+=2){
                     if(i%j===0){
                         isPrime = false;
                         break;
