@@ -1,9 +1,9 @@
-let num = 4;
+let step = 4;
 let numOfMatches = 0;
-function matchHouse(num){
-    if(num>=1){
-        numOfMatches = (num*5)+1;
+function matchHouse(step){
+    if(step>=1){
+        numOfMatches = (step*5)+1;
     }
 }
-matchHouse(num);
+matchHouse(step);
 console.log(`Number of matches ${numOfMatches}`);
